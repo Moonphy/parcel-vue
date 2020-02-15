@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <img src="../assets/img/logo.png"/>
     <div class="percentWrap">
       <percent :percent="percent" :text-name="textName" :them="theme"/>
     </div>
@@ -21,7 +22,7 @@ export default {
   mounted() {
     setTimeout(() => {
       this.percent = 88.57
-    }, 6000)
+    }, 4000)
     setTimeout(()=>{
       this.textName= '市场占有率3333'
     }, 9000)
@@ -33,7 +34,7 @@ export default {
 <style scoped>
 
 .percentWrap {
-  height: 800px;
+  height: 400px;
   background-color: #42b983;
 }
 </style>
